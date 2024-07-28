@@ -21,10 +21,10 @@ The neural network architecture consists of densely connected layers with ReLU a
 5. **Evaluation:** After training, the model with the best performance on the validation set is selected. The selected model is evaluated on the test set to obtain the final accuracy.
 
 ## Results
-The best performing model achieved an accuracy of [Best Accuracy] on the test set. The hyperparameters for this model are:
-- Hidden Layer Size: [Best Hidden Layer Size]
-- Dropout Rate: [Best Dropout Rate]
-- Learning Rate: [Best Learning Rate]
+The best performing model achieved an accuracy of 87.98 on the test set. The hyperparameters for this model are:
+- Hidden Layer Size: 128
+- Dropout Rate: 0.2
+- Learning Rate: 0.001
 
 ## Usage
 You can use this code to train and evaluate different neural network architectures on the Fashion MNIST dataset. Feel free to modify the hyperparameter grid or experiment with different architectures to improve performance.
